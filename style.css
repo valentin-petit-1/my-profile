@@ -1,0 +1,123 @@
+body {
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	background-color: #f2f2f2;
+	line-height: 35px;
+	text-align: center;
+	}
+
+p{font-family: 'Open Sans', sans-serif;
+text-align:center;
+color: #404040;
+letter-spacing: 2px;
+font-size: 18px}
+
+h1{font-family: 'Fira Sans', sans-serif;
+font-size: 70px;
+color: #0a1010;
+text-align: center;
+line-height: 55px;
+letter-spacing: 2px}
+
+h2{font-family: 'Ubuntu', sans-serif;
+font-size: 40px;
+color: #006400;
+line-height: 45px;
+letter-spacing: 2px;
+text-align: center}
+
+ul{text-align: center}
+
+a {
+  color: #6666ff;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+a:hover {
+  color: #000080;
+  text-decoration: none;
+}
+
+img{width: 550px}
+
+div{margin: 35px;}
+
+.container{
+  width: 1350px;
+  margin: 50px auto;
+}
+
+#lienlinkedin{ box-shadow: 5px 5px 5px rgba(0,0,0,0.5) ;
+background-color: #fffff0;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+border-radius: 5%}
+
+#moi{border-radius: 50%}
+.intro{background-color: #f5f5f5;
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.95);
+padding: 20px;
+border: 2px solid rgba(0, 0, 0, 0.3)
+}
+.intro:hover{color: #f2f2f2;
+  text-decoration: none;}
+  .education{background-color: #f5f5f5;
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.95);
+padding: 20px;
+border: 2px solid rgba(0, 0, 0, 0.3)
+}
+.education:hover{color: #f2f2f2;
+  text-decoration: none;}
+  .experience{background-color: #f5f5f5;
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.95);
+padding: 20px;
+border: 2px solid rgba(0, 0, 0, 0.3)
+}
+.experience:hover{color: #f2f2f2;
+  text-decoration: none;}
+  .reseaux{background-color: #f5f5f5;
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.95);
+padding: 20px;
+border: 2px solid rgba(0, 0, 0, 0.3)
+}
+.reseaux:hover{color: #f2f2f2;
+  text-decoration: none;}
+  .langues{background-color: #f5f5f5;
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.95);
+padding: 20px;
+border: 2px solid rgba(0, 0, 0, 0.3)
+}
+.langues:hover{color: #f2f2f2;
+  text-decoration: none;}
+  .list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
